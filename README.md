@@ -1,17 +1,17 @@
-# cra-template-typescript
+# cra-template-macek
 
-This is the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
+This is a custom create-react-app template based on cra-template-typescript. 
 
-To use this template, add `--template typescript` when creating a new app.
+Changes:
+- TailwindCSS
+- Create-React-Component-Folder
+- Custom Prettier config
+- Cleaned up `src` and public `public`
 
-For example:
+To use this template, add `--template macek` when creating a new app.
 
 ```sh
-npx create-react-app my-app --template typescript
-
-# or
-
-yarn create react-app my-app --template typescript
+yarn create react-app my-app --template macek
 ```
 
 For more information, please refer to:
