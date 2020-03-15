@@ -12,15 +12,14 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/cra-template-typescript"
+    "url": "https://gitlab.com/macekcz/cra-template-macek.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://gitlab.com/macekcz/cra-template-macek/-/issues"
   },
   "files": [
     "template",

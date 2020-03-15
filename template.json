@@ -1,14 +1,20 @@
 {
   "package": {
     "dependencies": {
-      "@testing-library/react": "^9.3.2",
-      "@testing-library/jest-dom": "^4.2.4",
-      "@testing-library/user-event": "^7.1.2",
       "@types/node": "^12.0.0",
       "@types/react": "^16.9.0",
       "@types/react-dom": "^16.9.0",
       "@types/jest": "^24.0.0",
-      "typescript": "~3.7.2"
+      "typescript": "~3.7.2",
+      "postcss-cli": "^7.1.0",
+      "tailwindcss": "^1.2.0",
+      "@fullhuman/postcss-purgecss": "^2.0.6",
+      "autoprefixer": "^9.7.4",
+    },
+    "scripts": {
+      "build:styles": "postcss src/tailwind.css -o src/styles.css",
+      "prebuild": "yarn build:styles",
+      "prestart": "yarn build:styles"
     }
   }
 }
