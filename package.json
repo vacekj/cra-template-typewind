@@ -1,6 +1,7 @@
 {
   "name": "cra-template-macek",
   "version": "1.0.0",
+  "author": "@JouzaLoL",
   "keywords": [
     "react",
     "create-react-app",
@@ -8,7 +9,7 @@
     "typescript",
     "tailwindcss"
   ],
-  "description": "Custom Macek CRA template based on Typescript",
+  "description": "Custom Macek CRA template based on Typescript CRA Template",
   "main": "template.json",
   "repository": {
     "type": "git",
