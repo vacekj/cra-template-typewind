@@ -10,6 +10,7 @@
       "tailwindcss": "^1.2.0",
       "@fullhuman/postcss-purgecss": "^2.0.6",
       "autoprefixer": "^9.7.4",
+      "react-router-dom": "5.1.2"
     },
     "scripts": {
       "build:styles": "postcss src/tailwind.css -o src/styles.css",
