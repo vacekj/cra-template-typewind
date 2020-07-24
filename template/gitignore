@@ -11,7 +11,7 @@
 # production
 /build
 
-# tailwindcss generater files
+# tailwindcss generated files
 /src/styles.css
 
 # misc
