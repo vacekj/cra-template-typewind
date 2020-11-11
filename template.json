@@ -4,18 +4,16 @@
       "@types/node": "^12.0.0",
       "@types/react": "^16.9.0",
       "@types/react-dom": "^16.9.0",
-      "typescript": "~3.9.5",
+      "typescript": "latest",
       "postcss-cli": "^7.1.0",
-      "tailwindcss": "^1.4.5",
+      "tailwindcss": "latest",
       "autoprefixer": "^9.7.4",
-      "react-router-dom": "5.2.0",
-      "create-react-component-folder": "0.3.0"
+      "react-router-dom": "5.2.0"
     },
     "scripts": {
       "build:styles": "postcss src/tailwind.css -o src/styles.css",
       "prebuild": "NODE_ENV=production yarn build:styles",
       "prestart": "yarn build:styles"
-    },
-    "crcf": ["typescript", "createindex", "functional", "notest", "uppercase"]
+    }
   }
 }

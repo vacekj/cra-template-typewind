@@ -1,7 +1,7 @@
 import React from "react";
 
 function App() {
-	return <div>Macek</div>;
+	return <div>Hello Typewind!</div>;
 }
 
 export default App;

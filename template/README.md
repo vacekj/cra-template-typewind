@@ -3,10 +3,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-### Creating component folders
-
-`yarn crcf src/component-name`
-
 In the project directory, you can run:
 
 ### `yarn start`

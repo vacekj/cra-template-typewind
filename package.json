@@ -1,26 +1,25 @@
 {
   "name": "cra-template-macek",
-  "version": "1.5.0",
-  "author": "@JouzaLoL",
+  "version": "2.0.0",
+  "author": "@vacekj",
   "keywords": [
     "react",
-    "create-react-app",
     "template",
     "typescript",
     "tailwindcss"
   ],
-  "description": "Custom Macek CRA template based on Typescript CRA Template",
+  "description": "Custom CRA template based on Typescript CRA Template",
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/macekcz/cra-template-macek.git"
+    "url": "https://github.com/vacekj/cra-template-typewind.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://gitlab.com/macekcz/cra-template-macek/-/issues"
+    "url": "https://github.com/vacekj/cra-template-typewind/issues"
   },
   "files": [
     "template",
