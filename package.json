@@ -5,28 +5,69 @@
   "keywords": [
     "react",
     "template",
-    "typescript",
-    "tailwindcss"
+    "typescript"
   ],
-  "description": "Custom CRA template based on Typescript CRA Template",
-  "main": "template.json",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vacekj/cra-template-typewind.git"
-  },
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
   },
-  "bugs": {
-    "url": "https://github.com/vacekj/cra-template-typewind/issues"
+  "dependencies": {
+    "@chakra-ui/react": "^1.2.1",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "framer-motion": "^3.2.2-rc.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "^4.0.1",
+    "typescript": "latest"
   },
-  "files": [
-    "template",
-    "template.json"
-  ],
-  "homepage": "https://github.com/vacekj/cra-template-typewind#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "npx cypress run",
+    "format": "prettier --write src",
+    "lint": "eslint src/**/* --fix"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "useTabs": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format && yarn lint",
+      "pre-push": "yarn build"
+    }
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^2.4.6",
+    "@capacitor/core": "^2.4.6",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "cypress": "^6.3.0",
+    "husky": "^4.3.8",
+    "prettier": "^2.2.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

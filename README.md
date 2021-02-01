@@ -1,17 +1,9 @@
 # cra-template-macek
 
-This is a custom create-react-app template based on cra-template-typescript. 
-
-Changes:
-- TailwindCSS
-- Create-React-Component-Folder
-- Custom Prettier config
-- Cleaned up `src` and public `public`
-
-To use this template, add `--template macek` when creating a new app.
+This is a custom create-react-app template based on cra-template-typescript.
 
 ```sh
-yarn create react-app my-app --template macek
+npx degit vacekj/cra-template-vacekj#main
 ```
 
 For more information, please refer to:
